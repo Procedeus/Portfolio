@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
     return (
-        <div className="container">
+        <div className="container-header">
             <div className="col-4">
                 <div className='flex'>
                     <h1>Olá, eu sou o Murilo</h1>

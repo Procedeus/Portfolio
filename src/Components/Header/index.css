@@ -1,3 +1,24 @@
+.container-header {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-gap: 10px;
+    height: 512px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .container-header{
+        grid-template-columns: none;
+        grid-gap: none;
+    }
+}
+
+.col-4{
+    grid-column: 4 / span 4;
+}
+
 .flex{
     display: flex;
     flex-direction: column;
