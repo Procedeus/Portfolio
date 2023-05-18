@@ -5,10 +5,7 @@
     min-height: 512px;
     align-items: center;
     justify-content: center;
-}
-
-.color-lite{
-    background-color: var(--color-bg-lite);
+    padding: 20px 0px;
 }
 
 .col-3{

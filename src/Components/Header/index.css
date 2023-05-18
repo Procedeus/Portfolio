@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(10, 100px);
     grid-gap: 10px;
-    height: 512px;
+    min-height: 512px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -23,12 +23,6 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-
-.icon{
-    font-size: 22px;
-    color: var(--color-button);
-    padding-right: 5px;
 }
 
 a{
