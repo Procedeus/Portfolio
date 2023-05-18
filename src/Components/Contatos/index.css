@@ -1,0 +1,73 @@
+.container-contatos {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-gap: 10px;
+    min-height: 512px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.contatos-coluna{
+    grid-column: 1 / span 3;
+}
+
+.contatos{
+    grid-column: 6 / span 5;
+    text-align: center;
+}
+
+.contatos > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.contatos > form > input{
+    color: var(--text-color);
+    border: 0;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 40px;
+    background-color: var(--color-form);
+    border-radius: 5px;
+    outline: none;
+}
+
+.contatos > form > textarea{
+    color: var(--text-color);
+    border: 0;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 230px;
+    background-color: var(--color-form);
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.contatos > form > button{
+    color: var(--text-color);
+    border: 0;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 40px;
+    background-color: var(--color-button);
+    border-radius: 5px;
+    outline: none;
+}
+
+@media screen and (max-width: 1100px){
+    .container-contatos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contatos > form{
+        width: 400px;
+    }
+}
