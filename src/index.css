@@ -29,3 +29,13 @@ p{
     font-size: 24px;
     color: var(--text-color);
 }
+
+.color-lite{
+    background-color: var(--color-bg-lite);
+}
+
+.icon{
+    font-size: 30px;
+    color: var(--color-button);
+    padding-right: 10px;
+}
