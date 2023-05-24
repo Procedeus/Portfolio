@@ -23,7 +23,7 @@ const Contatos = () => {
     };
 
     return (
-        <div className="container-contatos color-lite">
+        <div id='contact' className="container-contatos color-lite">
             <div className='contatos-coluna'>
                 <h1>Contatos</h1>
                 <p>Quais são as formas de entrar em contato comigo?</p>
@@ -39,7 +39,6 @@ const Contatos = () => {
                     <input type="text" id="name" name="name" placeholder="Nome"/>
                     <input type="text" id="email" name="email" placeholder="Email"/>
                     <textarea  className='textarea' name="descricao" placeholder="Descrição..."/>
-                    <input type='submit' value='Confrimar'/>
                     <button>Confirmar</button>
                 </form> 
             </div>
