@@ -59,6 +59,7 @@
     background-color: var(--color-button);
     border-radius: 5px;
     outline: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1100px){
