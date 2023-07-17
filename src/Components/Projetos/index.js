@@ -10,7 +10,7 @@ const Projetos = () => {
             </div>
             <div className='p-col-6'>
                 <div className='project'>
-                    <img src={img} alt="Girl in a jacket"/>
+                    <img src={img} alt=""/>
                     <div className='padding-project'>
                         <h2>Amigo Secreto com React</h2>
                         <p>Projeto cadastra pessoas em um tabela e as sorteia, enviando um email com as informações de qual é o amigo secreto.</p>

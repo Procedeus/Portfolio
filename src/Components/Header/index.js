@@ -2,12 +2,14 @@ import './index.css';
 import { SiMicrosoftoutlook } from 'react-icons/si';
 import { BsInstagram } from 'react-icons/bs';
 import { FaLinkedin } from 'react-icons/fa';
+import img from '../../assets/photo.png'
 
 const Header = () => {
     return (
         <div className="container-header">
             <div className="col-4">
                 <div className='flex'>
+                    <img id='perfil' src={img}></img>
                     <h1>Olá, eu sou o Murilo</h1>
                     <p>Formado em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia de Presidente Prudente.</p>
                     <div>
@@ -16,7 +18,7 @@ const Header = () => {
                         <a href='https://www.linkedin.com/in/murilo-rez/' className='icon'><FaLinkedin/></a>
                     </div>
                     <div>
-                        <a href="/" className='header-button'>Curriculo</a>
+                        <a href="https://drive.google.com/u/0/uc?id=1NSIlC83EGFacr3Swp4PrCn_kjn4Sxl_K&export=download" className='header-button'>Curriculo</a>
                         <a href="#contact" className='header-button'>Contatos</a>
                     </div>
                 </div>
