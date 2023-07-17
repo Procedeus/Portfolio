@@ -16,19 +16,19 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    grid-column: 5 / span 6;
+    grid-column: 6 / span 5;
 }
 
 .project{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 320px;
     background-color: var(--color-form);
     border-radius: 5px;
 }
 
 img{
+    max-width: 540px;
     border-radius: 5px;
 }
 .padding-project{

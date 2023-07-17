@@ -1,5 +1,5 @@
 import './index.css';
-import img from '../../assets/teste.png'
+import img from '../../assets/amigo-secreto.png'
 
 const Projetos = () => {
     return (
@@ -12,16 +12,13 @@ const Projetos = () => {
                 <div className='project'>
                     <img src={img} alt="Girl in a jacket"/>
                     <div className='padding-project'>
-                        <h2>Titulo do Projeto</h2>
-                        <p>Descrição do projeto e tecnologias utilizadas</p>
-                    </div>
-                    <a href="/">Saber Mais</a>
-                </div>
-                <div className='project'>
-                    <img src={img} alt="Girl in a jacket"/>
-                    <div className='padding-project'>
-                        <h2>Titulo do Projeto</h2>
-                        <p>Descrição do projeto e tecnologias utilizadas</p>
+                        <h2>Amigo Secreto com React</h2>
+                        <p>Projeto cadastra pessoas em um tabela e as sorteia, enviando um email com as informações de qual é o amigo secreto.</p>
+                        <p>As tecnologias utilizadas foram:</p>
+                        <p>React</p>
+                        <p>Axios</p>
+                        <p>EmailJs</p>
+                        <p>DotEnv</p>
                     </div>
                     <a href="/">Saber Mais</a>
                 </div>
