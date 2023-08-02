@@ -9,7 +9,7 @@ const Header = () => {
         <div className="container-header">
             <div className="col-4">
                 <div className='flex'>
-                    <img id='perfil' src={img}></img>
+                    <img id='perfil' src={img} alt='Foto Perfil'></img>
                     <h1>Olá, eu sou o Murilo</h1>
                     <p>Formado em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia de Presidente Prudente.</p>
                     <div>
