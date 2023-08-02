@@ -18,7 +18,7 @@ const Header = () => {
                         <a href='https://www.linkedin.com/in/murilo-rez/' className='icon'><FaLinkedin/></a>
                     </div>
                     <div>
-                        <a href="https://drive.google.com/u/0/uc?id=1NSIlC83EGFacr3Swp4PrCn_kjn4Sxl_K&export=download" className='header-button'>Curriculo</a>
+                        <a href="https://drive.google.com/u/0/uc?id=1Ngt7_0HtmXyAktFzG_MlX-2agsBeLK7F&export=download" className='header-button'>Curriculo</a>
                         <a href="#contact" className='header-button'>Contatos</a>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import './index.css';
-import img from '../../assets/amigo-secreto.png'
+import img from '../../assets/amigo-secreto.gif'
 
 const Projetos = () => {
     return (
@@ -20,7 +20,7 @@ const Projetos = () => {
                         <p>EmailJs</p>
                         <p>DotEnv</p>
                     </div>
-                    <a href="/">Saber Mais</a>
+                    <a href="https://github.com/Procedeus/React-amigo-secreto">Saber Mais</a>
                 </div>
             </div>
         </div>
