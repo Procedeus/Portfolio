@@ -20,6 +20,16 @@ body{
     background-color: var(--color-bg);
 }
 
+section{
+    padding-top: 60px;
+}
+
+section > h1{
+    font-size: 50px;
+    grid-column: 1 / span 12;
+    margin-bottom: 40px;
+}
+
 h1{
     font-weight: 800;
     color: var(--text-color);
@@ -33,6 +43,12 @@ p{
 
 a{
     text-decoration: none;
+}
+
+.grid-12{
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    gap: 10px;
 }
 
 .color-lite{

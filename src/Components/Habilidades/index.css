@@ -1,0 +1,30 @@
+#habilidades{
+    justify-content: center;
+    text-align: center;
+}
+
+.frontend{
+    grid-column: 1 / span 4;
+}
+
+.backend{
+    grid-column: 5 / span 4;
+}
+
+.tools{
+    grid-column: 9 / span 4;
+}
+
+.frontend > p, .backend > p, .tools > p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title-skills{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.skill-icon{
+    font-size: 40px;
+    color: var(--text-color);
+}

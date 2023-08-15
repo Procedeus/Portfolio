@@ -3,14 +3,14 @@ import img from '../../assets/person.png'
 
 const Header = () => {
     return (
-        <header>
+        <header className='grid-12'>
             <nav>
                 <ul>
                     <li>
                         <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='/'>Habilidades</a>
+                        <a href='#habilidades'>Habilidades</a>
                     </li>
                     <li>
                         <a href='/'>Projetos</a>
