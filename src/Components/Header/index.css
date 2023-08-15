@@ -1,43 +1,84 @@
-.container-header {
+header{
+    height: 100vh;
     display: grid;
-    grid-template-columns: repeat(10, 100px);
-    grid-gap: 10px;
-    min-height: 512px;
-    align-items: center;
-    text-align: center;
+    grid-template-columns: repeat(12,100px);
+    gap: 10px;
     justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 720px) {
-    .container-header{
-        grid-template-columns: none;
-        grid-gap: none;
-    }
+nav{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: var(--color-navbar);
+
 }
 
-.col-4{
-    grid-column: 4 / span 4;
+nav > ul{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
 }
 
-.flex{
+nav > ul > li > a{
+    color: var(--text-color);
+}
+
+.button-navbar{
+    color: var(--text-color);
+    font-weight: 700;
+    background-color: var(--text-name);
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.header-content{
+    grid-column: 1 / span 5;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    align-items: center;
 }
 
-.header-button{
-    font-size: 20px;
-    font-weight: 700;
-    padding: 5px 20px;
-    background-color: var(--color-button);
+.size-50{
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.size-70{
+    font-size: 70px;
+    color: var(--text-name);
+    line-height: 75%;
+}
+
+.header-content > p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-content > a{
     color: var(--text-color);
-    text-decoration: none;
+    font-weight: 700;
+    background-color: var(--text-name);
+    padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 5px;
-    margin-right: 10px;
+    width: max-content;
 }
 
-#perfil{
-    border-radius: 50%;
-    width: 200px;
+.img-header{
+    grid-column: 6 / span 7;
+}
+
+.img-header > img{
+    width: 100%;
 }

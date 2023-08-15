@@ -1,29 +1,40 @@
 import './index.css';
-import { SiMicrosoftoutlook } from 'react-icons/si';
-import { BsInstagram } from 'react-icons/bs';
-import { FaLinkedin } from 'react-icons/fa';
-import img from '../../assets/photo.png'
+import img from '../../assets/person.png'
 
 const Header = () => {
     return (
-        <div className="container-header">
-            <div className="col-4">
-                <div className='flex'>
-                    <img id='perfil' src={img} alt='Foto Perfil'></img>
-                    <h1>Olá, eu sou o Murilo</h1>
-                    <p>Formado em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia de Presidente Prudente.</p>
-                    <div>
-                        <a href='mailto:murilorez79@hotmail.com' className='icon'><SiMicrosoftoutlook/></a>
-                        <a href='https://www.instagram.com/mu.rezende/' className='icon'><BsInstagram/></a>
-                        <a href='https://www.linkedin.com/in/murilo-rez/' className='icon'><FaLinkedin/></a>
-                    </div>
-                    <div>
-                        <a href="https://drive.google.com/u/0/uc?id=1Ngt7_0HtmXyAktFzG_MlX-2agsBeLK7F&export=download" className='header-button'>Curriculo</a>
-                        <a href="#contact" className='header-button'>Contatos</a>
-                    </div>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href='/'>Home</a>
+                    </li>
+                    <li>
+                        <a href='/'>Habilidades</a>
+                    </li>
+                    <li>
+                        <a href='/'>Projetos</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href='/' className='button-navbar'>Contatos</a>
                 </div>
+            </nav>
+            <div className='header-content'>
+                <h1 className='size-50'>Olá, eu sou</h1>
+                <h1 className='size-70'>Murilo</h1>
+                <h1 className='size-70'>Rezende</h1>
+                <p>
+                Texto é uma produção, verbal ou não verbal, que se constitui 
+                com algum código, no intuito de comunicar algo a alguém
+                </p>
+                <a href='/'>Contate me</a>
             </div>
-        </div>
+            <div className='img-header'>
+                <img src={img} alt='Person' />
+            </div>
+        </header>
+        
     );
 }
       
