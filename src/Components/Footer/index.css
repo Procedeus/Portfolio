@@ -1,27 +1,6 @@
-.container-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-height: 256px;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-    position: relative;
-}
-
-.container-footer > a{
-    display: flex;
-    font-size: 18px;
-    align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.container-footer > p{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-    font-size: 18px;
+footer{
+    margin-top: 60px;
+    background-color: var(--color-project);
+    padding: 50px;
+    text-align: center;
 }

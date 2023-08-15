@@ -3,21 +3,21 @@ import img from '../../assets/person.png'
 
 const Header = () => {
     return (
-        <header className='grid-12'>
+        <header id='home' className='grid-12'>
             <nav>
                 <ul>
                     <li>
-                        <a href='/'>Home</a>
+                        <a href='#home'>Home</a>
                     </li>
                     <li>
                         <a href='#habilidades'>Habilidades</a>
                     </li>
                     <li>
-                        <a href='/'>Projetos</a>
+                        <a href='#projetos'>Projetos</a>
                     </li>
                 </ul>
                 <div>
-                    <a href='/' className='button-navbar'>Contatos</a>
+                    <a href='#contatos' className='button-navbar'>Contatos</a>
                 </div>
             </nav>
             <div className='header-content'>
@@ -28,7 +28,7 @@ const Header = () => {
                 Texto é uma produção, verbal ou não verbal, que se constitui 
                 com algum código, no intuito de comunicar algo a alguém
                 </p>
-                <a href='/'>Contate me</a>
+                <a href='#contatos'>Contate me</a>
             </div>
             <div className='img-header'>
                 <img src={img} alt='Person' />

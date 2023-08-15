@@ -1,4 +1,8 @@
 #habilidades{
+    text-align: center;
+}
+
+#habilidades > div {
     justify-content: center;
     text-align: center;
 }

@@ -3,11 +3,12 @@ import img from '../../assets/amigo-secreto.gif'
 
 const Projetos = () => {
     return (
-        <section id='projetos' className='grid-12'>
+        <section id='projetos'>
             <h1>Projetos</h1>
+            <p>Projetos desenvolvidos recentemente</p>
             <div className='projects'>
                 <div className='project-box'>
-                    <img src={img}/>
+                    <img src={img} alt='imagem projeto' />
                     <div className='project-text'>
                         <h2>Nome do Projeto</h2>
                         <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
@@ -19,7 +20,7 @@ const Projetos = () => {
                     </div>
                 </div>
                 <div className='project-box'>
-                    <img src={img}/>
+                    <img src={img} alt='imagem projeto' />
                     <div className='project-text'>
                         <h2>Nome do Projeto</h2>
                         <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
@@ -31,7 +32,7 @@ const Projetos = () => {
                     </div>
                 </div>
                 <div className='project-box'>
-                    <img src={img}/>
+                    <img src={img} alt='imagem projeto' />
                     <div className='project-text'>
                         <h2>Nome do Projeto</h2>
                         <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
@@ -43,7 +44,7 @@ const Projetos = () => {
                     </div>
                 </div>
                 <div className='project-box'>
-                    <img src={img}/>
+                    <img src={img} alt='imagem projeto' />
                     <div className='project-text'>
                         <h2>Nome do Projeto</h2>
                         <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>

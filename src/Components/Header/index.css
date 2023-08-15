@@ -34,7 +34,7 @@ nav > ul > li > a{
     color: var(--text-color);
     font-weight: 700;
     background-color: var(--text-name);
-    padding: 5px 15px;
+    padding: 10px 20px;
     margin-top: 10px;
     border-radius: 5px;
 }

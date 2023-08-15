@@ -46,7 +46,7 @@
 
 .align-button{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 10px;
 }
 
@@ -59,6 +59,7 @@
 .color-blue{
     background-color: var(--text-name);
 }
+
 .color-red{
     background-color: var(--color-button);
 }

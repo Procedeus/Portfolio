@@ -1,9 +1,10 @@
+import './index.css';
 import { useRef } from 'react'
-import { SiMicrosoftoutlook } from 'react-icons/si';
+import { MdEmail } from 'react-icons/md';
 import { BsInstagram } from 'react-icons/bs';
 import { FaLinkedin } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
-import './index.css';
+import { IoLogoWhatsapp } from 'react-icons/io5';
 
 const Contatos = () => {
     const form = useRef();
@@ -23,26 +24,24 @@ const Contatos = () => {
     };
 
     return (
-        <div id='contact' className="container-contatos color-lite">
-            <div className='contatos-coluna'>
-                <h1>Contatos</h1>
-                <p>Quais são as formas de entrar em contato comigo?</p>
-                <div>
-                    <a href='mailto:murilorez79@hotmail.com' className='icon'><SiMicrosoftoutlook/></a>
-                    <a href='https://www.instagram.com/mu.rezende/' className='icon'><BsInstagram/></a>
-                    <a href='https://www.linkedin.com/in/murilo-rez/' className='icon'><FaLinkedin/></a>
-                </div>
+        <section id='contatos'>
+            <h1>Contatos</h1>
+            <p>Aqui estão as redes sociais e formas de entrar em contato comigo</p>
+            <div className='icons-contact'>
+                <IoLogoWhatsapp className='icon-contact' />
+                <MdEmail className='icon-contact' />
+                <FaLinkedin className='icon-contact' />
+                <BsInstagram className='icon-contact' />
             </div>
-            <div className='contatos'>
-                <form ref={form} onSubmit={sendEmail}>
-                    <h2>Me Envie um Email.</h2>
-                    <input type="text" id="name" name="name" placeholder="Nome"/>
-                    <input type="text" id="email" name="email" placeholder="Email"/>
-                    <textarea  className='textarea' name="descricao" placeholder="Descrição..."/>
-                    <button>Confirmar</button>
-                </form> 
-            </div>
-        </div>
+
+            <form ref={form} onSubmit={sendEmail} className='form-contact'>
+                <h2>Me Envie um Email.</h2>
+                <input type="text" id="name" name="name" placeholder="Nome"/>
+                <input type="text" id="email" name="email" placeholder="Email"/>
+                <textarea  className='textarea' name="descricao" placeholder="Descrição..."/>
+                <button>Confirmar</button>
+            </form> 
+        </section>
     );
 }
       

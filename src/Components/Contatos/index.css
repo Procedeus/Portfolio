@@ -1,74 +1,56 @@
-.container-contatos {
-    display: grid;
-    grid-template-columns: repeat(10, 100px);
-    grid-gap: 10px;
-    min-height: 512px;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-}
-
-.contatos-coluna{
-    grid-column: 1 / span 3;
-}
-
-.contatos{
-    grid-column: 6 / span 5;
-    text-align: center;
-}
-
-.contatos > form{
+#contatos{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: 15px;
+    text-align: center;
+}
+#contatos > p{
+    margin-bottom: 10px;
+}
+.icons-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
-.contatos > form > input{
-    color: var(--text-color);
-    border: 0;
-    padding: 0 10px;
-    font-weight: 700;
-    font-size: 20px;
-    height: 40px;
-    background-color: var(--color-form);
-    border-radius: 5px;
-    outline: none;
+.icon-contact{
+    font-size: 25px;
+    color: var(--text-name);
 }
 
-.contatos > form > textarea{
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    gap: 10px;
+    margin: auto;
+}
+
+.form-contact > h2{
+    font-size: 30px;
+    font-weight: 800;
     color: var(--text-color);
-    border: 0;
-    padding: 0 10px;
-    font-weight: 700;
-    font-size: 20px;
-    height: 230px;
-    background-color: var(--color-form);
+}
+
+.form-contact > input, .form-contact > button, .form-contact > textarea{
+    padding: 8px;
     border-radius: 5px;
-    outline: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.form-contact > input, .form-contact > textarea{
+    background-color: var(--color-project);
+}
+
+.form-contact > textarea{
+    height: 200px;
     resize: none;
 }
 
-.contatos > form > button{
-    color: var(--text-color);
-    border: 0;
-    padding: 0 10px;
-    font-weight: 700;
-    font-size: 20px;
-    height: 40px;
-    background-color: var(--color-button);
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
+.form-contact > button{
+    background-color: var(--text-name);
 }
 
-@media screen and (max-width: 1100px){
-    .container-contatos{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .contatos > form{
-        width: 400px;
-    }
-}

@@ -26,7 +26,13 @@ section{
 section > h1{
     font-size: 50px;
     grid-column: 1 / span 12;
+    line-height: 80%;
+}
+section > p{
+    grid-column: 1 / span 12;
     margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 h1{
@@ -35,8 +41,6 @@ h1{
 }
 
 p{
-    font-weight: 500;
-    font-size: 24px;
     color: var(--text-color);
 }
 
