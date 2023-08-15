@@ -1,77 +1,64 @@
-.container-projetos {
-    display: grid;
-    grid-template-columns: repeat(10, 100px);
-    grid-gap: 10px;
-    min-height: 512px;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-}
-
-.col-3{
-    grid-column: 1 / span 3;
-}
-
-.p-col-6{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    grid-column: 7 / span 4;
-}
-
-.project{
+#projetos{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    background-color: var(--color-form);
-    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
 }
 
-img{
-    border-radius: 5px;
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 870px;
+    margin: auto;
 }
-.padding-project{
+
+.project-box{
     text-align: start;
-    padding: 5px 10px;
-}
-.padding-project > p{
-    font-weight: 700;
-    font-size: 16px;
-    opacity: 0.7;
-}
-
-.padding-project > h2{
-    font-weight: 700;
-    font-size: 24px;
-    color: var(--text-color);
-}
-
-.project > a{
-    font-size: 20px;
-    font-weight: 700;
-    padding: 5px 20px;
-    background-color: var(--color-button);
-    color: var(--text-color);
-    text-decoration: none;
+    width: 430px;
+    background-color: var(--color-project);
     border-radius: 5px;
-    margin-right: 10px;
-    margin-bottom: 5px;
 }
 
-@media screen and (max-width: 1100px) {
-    .container-projetos{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .project{
-        max-width: 430px;
-    }
+.project-box > img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
 }
 
-@media screen and (max-width: 750px) {
-    .p-col-6{
-        display: flex;
-        flex-direction: column;
-    }
+.project-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.project-text > h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.project-text > p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.align-button{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.project-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.color-blue{
+    background-color: var(--text-name);
+}
+.color-red{
+    background-color: var(--color-button);
 }

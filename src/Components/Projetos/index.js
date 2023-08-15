@@ -3,27 +3,59 @@ import img from '../../assets/amigo-secreto.gif'
 
 const Projetos = () => {
     return (
-        <div className="container-projetos">
-            <div className='col-3'>
-                <h1>Projetos no Github</h1>
-                <p>Quais são os projetos que eu já fiz?</p>
-            </div>
-            <div className='p-col-6'>
-                <div className='project'>
-                    <img src={img} alt="Foto amigo secreto"/>
-                    <div className='padding-project'>
-                        <h2>Amigo Secreto com React</h2>
-                        <p>Projeto cadastra pessoas em um tabela e as sorteia, enviando um email com as informações de qual é o amigo secreto.</p>
-                        <p>As tecnologias utilizadas foram:</p>
-                        <p>React</p>
-                        <p>Axios</p>
-                        <p>EmailJs</p>
-                        <p>DotEnv</p>
+        <section id='projetos' className='grid-12'>
+            <h1>Projetos</h1>
+            <div className='projects'>
+                <div className='project-box'>
+                    <img src={img}/>
+                    <div className='project-text'>
+                        <h2>Nome do Projeto</h2>
+                        <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
+                        <p>Tecnologias Utilizadas</p>
+                        <div className='align-button'>
+                            <a href='/' className='project-button color-blue'>Source Code</a>
+                            <a href='/' className='project-button color-red'>Live Demo</a>
+                        </div>
                     </div>
-                    <a href="https://github.com/Procedeus/React-amigo-secreto">Saber Mais</a>
+                </div>
+                <div className='project-box'>
+                    <img src={img}/>
+                    <div className='project-text'>
+                        <h2>Nome do Projeto</h2>
+                        <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
+                        <p>Tecnologias Utilizadas</p>
+                        <div className='align-button'>
+                            <a href='/' className='project-button color-blue'>Source Code</a>
+                            <a href='/' className='project-button color-red'>Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-box'>
+                    <img src={img}/>
+                    <div className='project-text'>
+                        <h2>Nome do Projeto</h2>
+                        <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
+                        <p>Tecnologias Utilizadas</p>
+                        <div className='align-button'>
+                            <a href='/' className='project-button color-blue'>Source Code</a>
+                            <a href='/' className='project-button color-red'>Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-box'>
+                    <img src={img}/>
+                    <div className='project-text'>
+                        <h2>Nome do Projeto</h2>
+                        <p>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</p>
+                        <p>Tecnologias Utilizadas</p>
+                        <div className='align-button'>
+                            <a href='/' className='project-button color-blue'>Source Code</a>
+                            <a href='/' className='project-button color-red'>Live Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
       
