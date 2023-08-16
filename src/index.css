@@ -63,3 +63,12 @@ a{
     color: var(--color-button);
     padding-right: 10px;
 }
+
+@media screen and (max-width: 1300px) {
+    .grid-12{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+}

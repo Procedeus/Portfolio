@@ -9,19 +9,23 @@
 
 .frontend{
     grid-column: 1 / span 4;
+    padding: 100px 0px;
 }
 
 .backend{
     grid-column: 5 / span 4;
+    padding: 100px 0px;
 }
 
 .tools{
     grid-column: 9 / span 4;
+    padding: 100px 0px;
 }
 
 .frontend > p, .backend > p, .tools > p{
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .title-skills{
@@ -31,4 +35,16 @@
 .skill-icon{
     font-size: 40px;
     color: var(--text-color);
+}
+
+@media screen and (max-width: 1300px){
+    .frontend, .backend, .tools{
+        width: max-content;
+        padding: 20px;
+        margin: auto;
+    }
+    #habilidades > .grid-12{
+        margin: auto;
+    }
+
 }

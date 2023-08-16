@@ -28,6 +28,11 @@ nav > ul{
 
 nav > ul > li > a{
     color: var(--text-color);
+    transition: 0.7s;
+}
+
+nav > ul > li > a:hover{
+    color: var(--text-name);
 }
 
 .button-navbar{
@@ -37,6 +42,7 @@ nav > ul > li > a{
     padding: 10px 20px;
     margin-top: 10px;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .header-content{
@@ -70,7 +76,14 @@ nav > ul > li > a{
     margin-top: 10px;
     border-radius: 5px;
     width: max-content;
+    transition: 0.3s;
 }
+
+.header-content > a:hover, .button-navbar:hover{
+    background-color: var(--text-color);
+    color: var(--color-project);
+}
+
 
 .img-header{
     grid-column: 6 / span 7;
@@ -78,4 +91,31 @@ nav > ul > li > a{
 
 .img-header > img{
     width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    header{
+        margin: auto;
+        margin-top: 90px;
+        height: max-content;
+    }
+
+    .header-content{
+        align-items: center;
+    }
+
+    .img-header > img{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .button-navbar{
+        display: none;
+    }
+
+    nav > ul {
+        justify-content: center;
+    }
 }

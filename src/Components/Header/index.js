@@ -25,8 +25,10 @@ const Header = () => {
                 <h1 className='size-70'>Murilo</h1>
                 <h1 className='size-70'>Rezende</h1>
                 <p>
-                Texto é uma produção, verbal ou não verbal, que se constitui 
-                com algum código, no intuito de comunicar algo a alguém
+                    Desenvolvedor Fullstack em busca de novas 
+                    oportunidades no mercado de trabalho, pronto para aplicar 
+                    conjunto diversificado de habilidades e conhecimentos para contribuir 
+                    positivamente em um ambiente que valoriza a criatividade, a inovação e a colaboração.
                 </p>
                 <a href='#contatos'>Contate me</a>
             </div>
