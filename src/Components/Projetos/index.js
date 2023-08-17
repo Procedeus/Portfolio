@@ -33,6 +33,7 @@ const Projetos = () => {
                         </div>
                         <div className='align-button'>
                             <a href='https://github.com/Procedeus/React-amigo-secreto' className='project-button color-blue'>Source Code</a>
+                            <a href='https://react-amigo-secreto.netlify.app/login' className='project-button color-red'>Live Demo</a>
                         </div>
                     </div>
                 </div>
