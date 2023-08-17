@@ -1,5 +1,4 @@
 import './index.css';
-import img from '../../assets/person.png'
 
 const Header = () => {
     return (
@@ -33,7 +32,7 @@ const Header = () => {
                 <a href='#contatos'>Contate me</a>
             </div>
             <div className='img-header'>
-                <img src={img} alt='Person' />
+                <img src='https://i.imgur.com/fnCthe3.png' alt='Person' />
             </div>
         </header>
         

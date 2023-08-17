@@ -1,6 +1,4 @@
 import './index.css';
-import img from '../../assets/projeto-01.png'
-import img2 from '../../assets/projeto-02.gif'
 
 const Projetos = () => {
     return (
@@ -9,7 +7,7 @@ const Projetos = () => {
             <p>Projetos desenvolvidos recentemente</p>
             <div className='projects'>
                 <div className='project-box'>
-                    <img src={img} alt='imagem projeto' />
+                    <img src='https://imgur.com/7ewJJFu.png' alt='imagem projeto' />
                     <div className='project-content'>
                         <div className='project-text'>
                             <h2>Cursos de Instrumentos</h2>
@@ -24,7 +22,7 @@ const Projetos = () => {
                     </div>
                 </div>
                 <div className='project-box'>
-                    <img src={img2} alt='imagem projeto' />
+                    <img src='https://imgur.com/TBg8moz.gif' alt='imagem projeto' />
                     <div className='project-content'>
                         <div className='project-text'>
                             <h2>Amigo Secreto</h2>
