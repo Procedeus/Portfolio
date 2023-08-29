@@ -23,8 +23,10 @@ const Habilidades = () => {
                     <h1 className='title-skills'>Back-end</h1>
                     <p>Mongoose</p>
                     <p>Express</p>
-                    <p>Cors</p>
                     <p>Nodejs</p>
+                    <p>Nodemon</p>
+                    <p>JWT</p>
+                    <p>EmailJS</p>
                 </div>
                 <div className='tools'>
                     <RiToolsFill className='skill-icon' />
