@@ -36,7 +36,7 @@ nav > ul > li > a:hover{
 }
 
 .button-navbar{
-    color: var(--text-color);
+    color: var(--text-alternative);
     font-weight: 700;
     background-color: var(--text-name);
     padding: 10px 20px;
@@ -52,14 +52,24 @@ nav > ul > li > a:hover{
 }
 
 .size-50{
-    font-size: 50px;
+    font-size: 40px;
     line-height: 100%;
+    color: var(--text-color);
 }
 
 .size-70{
     font-size: 70px;
     color: var(--text-name);
     line-height: 75%;
+}
+.fullstack-animation{
+    max-width: 7ch;
+    width: 100%;
+    overflow: hidden;
+    border-right: 4px solid;
+    animation: typing 2s steps(9) infinite alternate,
+    blinking 0.5s infinite step-end
+    alternate;
 }
 
 .header-content > p{
@@ -69,7 +79,7 @@ nav > ul > li > a:hover{
 }
 
 .header-content > a{
-    color: var(--text-color);
+    color: var(--text-alternative);
     font-weight: 700;
     background-color: var(--text-name);
     padding: 10px 20px;
@@ -80,8 +90,7 @@ nav > ul > li > a:hover{
 }
 
 .header-content > a:hover, .button-navbar:hover{
-    background-color: var(--text-color);
-    color: var(--color-project);
+    opacity: 0.7;
 }
 
 
@@ -91,6 +100,17 @@ nav > ul > li > a:hover{
 
 .img-header > img{
     width: 100%;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
 }
 
 @media screen and (max-width: 1300px) {

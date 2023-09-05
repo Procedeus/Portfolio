@@ -26,7 +26,7 @@
 
 .icon-contact:hover{
     transform: scale(1.2);
-    color: var(--text-color);
+    opacity: 0.7;
 }
 
 .form-contact{
@@ -43,7 +43,7 @@
     color: var(--text-color);
 }
 
-.form-contact > input, .form-contact > button, .form-contact > textarea{
+.form-contact > input, .form-contact > textarea{
     padding: 8px;
     border-radius: 5px;
     border: none;
@@ -54,9 +54,20 @@
     border: 1px solid var(--color-project);
 }
 
+.form-contact > button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: var(--text-alternative);
+    font-size: 14px;
+    transition-duration: 0.7s;
+    border: 1px solid var(--color-project);
+}
+
 .form-contact > input:focus, .form-contact > button:focus, .form-contact > textarea:focus{
     transform: scale(1.01);
-    border: 1px solid var(--text-name);
+    border: 1px solid var(--text-color);
 }
 
 .form-contact > input, .form-contact > textarea{
@@ -73,8 +84,7 @@
 }
 
 .form-contact > button:hover{
-    background-color: var(--text-color);
-    color: var(--color-project);
+    opacity: 0.7;
     transform: scale(1.01);
 }
 

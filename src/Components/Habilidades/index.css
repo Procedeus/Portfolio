@@ -9,17 +9,14 @@
 
 .frontend{
     grid-column: 1 / span 4;
-    padding: 100px 0px;
 }
 
 .backend{
     grid-column: 5 / span 4;
-    padding: 100px 0px;
 }
 
 .tools{
     grid-column: 9 / span 4;
-    padding: 100px 0px;
 }
 
 .frontend > p, .backend > p, .tools > p{
@@ -28,19 +25,26 @@
     margin-bottom: 10px;
 }
 
+.frontend, .backend, .tools{
+    border: 1px solid var(--text-name);
+    border-radius: 5px;
+    padding: 40px 0px;
+}
+
 .title-skills{
     font-size: 40px;
     margin-bottom: 15px;
 }
 .skill-icon{
     font-size: 40px;
-    color: var(--text-color);
+    color: var(--text-name);
 }
 
 @media screen and (max-width: 1300px){
     .frontend, .backend, .tools{
-        width: max-content;
-        padding: 20px;
+        max-width: 400px;
+        width: 100%;
+        padding: 50px 20px;
         margin: auto;
     }
     #habilidades > .grid-12{

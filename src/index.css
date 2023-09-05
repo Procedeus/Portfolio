@@ -7,11 +7,12 @@
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 :root{
-    --color-bg: #1E1E20;
-    --color-navbar: #111111;
-    --color-project: #121212;
+    --color-bg: #ffffff;
+    --color-navbar: #e8e8e8;
+    --color-project: #f5f5f5;
     --color-button: #FF7A8E;
-    --text-color: #FFFFFF;
+    --text-color: #252754;
+    --text-alternative: #ffffff;
     --text-name: #7B92FF;
 
 }
@@ -37,7 +38,7 @@ section > p{
 
 h1{
     font-weight: 800;
-    color: var(--text-color);
+    color: var(--text-name);
 }
 
 p{

@@ -20,12 +20,12 @@ const Header = () => {
                 </div>
             </nav>
             <div className='header-content'>
-                <h1 className='size-50'>Olá, eu sou</h1>
-                <h1 className='size-70'>Murilo</h1>
-                <h1 className='size-70'>Rezende</h1>
+                <h1 className='size-50'>Olá, eu sou </h1>
+                <h1 className='size-50'>Murilo Rezende</h1>
+                <h1 className='size-70'>Desenvolvedor </h1>
+                <h1 className='size-70 fullstack-animation'>FullStack</h1>
                 <p>
-                    Desenvolvedor Fullstack em busca de novas 
-                    oportunidades no mercado de trabalho, pronto para aplicar 
+                    Em busca de novas oportunidades no mercado de trabalho, pronto para aplicar 
                     conjunto diversificado de habilidades e conhecimentos para contribuir 
                     positivamente em um ambiente que valoriza a criatividade, a inovação e a colaboração.
                 </p>

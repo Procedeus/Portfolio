@@ -21,6 +21,7 @@
     max-width: 430px;
     background-color: var(--color-project);
     border-radius: 5px;
+    border: 2px solid var(--color-project);
 }
 
 .project-box > img{
@@ -63,7 +64,7 @@
 .project-button{
     padding: 10px 15px;
     border-radius: 5px;
-    color: var(--text-color);
+    color: var(--text-alternative);
 }
 
 .color-blue{
