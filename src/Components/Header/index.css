@@ -138,4 +138,7 @@ nav > ul > li > a:hover{
     nav > ul {
         justify-content: center;
     }
+    .size-70{
+        font-size: 60px;
+    }
 }
