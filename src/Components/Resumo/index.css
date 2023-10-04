@@ -1,0 +1,18 @@
+#resumo{
+    text-align: center;
+}
+
+.resumo-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1320px;
+    border: 1px solid var(--text-name);
+    border-radius: 5px;
+}
+.resumo-content > p {
+    text-indent: 10px;
+  }

@@ -7,7 +7,6 @@
 
 .projects{
     display: flex;
-    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
     max-width: 870px;
@@ -21,7 +20,7 @@
     max-width: 430px;
     background-color: var(--color-project);
     border-radius: 5px;
-    border: 2px solid var(--color-project);
+    border: 1px solid var(--text-name);
 }
 
 .project-box > img{

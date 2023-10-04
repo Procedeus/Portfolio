@@ -9,6 +9,10 @@
     margin-bottom: 10px;
 }
 
+#contatos > h2{
+    margin-bottom: 10px;
+}
+
 .icons-contact{
     display: flex;
     flex-direction: row;
@@ -51,7 +55,8 @@
     color: var(--text-color);
     font-size: 14px;
     transition-duration: 0.7s;
-    border: 1px solid var(--color-project);
+    border: 1px solid var(--text-name);
+
 }
 
 .form-contact > button{

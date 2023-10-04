@@ -2,11 +2,14 @@ import './index.css';
 
 const Header = () => {
     return (
-        <header id='home' className='grid-12'>
+        <header id='home'>
             <nav>
                 <ul>
                     <li>
                         <a href='#home'>Home</a>
+                    </li>
+                    <li>
+                        <a href='#resumo'>Resumo</a>
                     </li>
                     <li>
                         <a href='#habilidades'>Habilidades</a>
@@ -22,7 +25,7 @@ const Header = () => {
             <div className='header-content'>
                 <h1 className='size-50'>Olá, eu sou </h1>
                 <h1 className='size-50'>Murilo Rezende</h1>
-                <h1 className='size-70'>Desenvolvedor </h1>
+                <h1 className='size-70'>Desenvolvedor</h1>
                 <h1 className='size-70 fullstack-animation'>FullStack</h1>
                 <p>
                     Em busca de novas oportunidades no mercado de trabalho, pronto para aplicar 
@@ -30,9 +33,6 @@ const Header = () => {
                     positivamente em um ambiente que valoriza a criatividade, a inovação e a colaboração.
                 </p>
                 <a href='#contatos'>Contate me</a>
-            </div>
-            <div className='img-header'>
-                <img src='https://i.imgur.com/fnCthe3.png' alt='Person' />
             </div>
         </header>
         

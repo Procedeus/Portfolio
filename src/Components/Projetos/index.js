@@ -37,6 +37,21 @@ const Projetos = () => {
                         </div>
                     </div>
                 </div>
+                <div className='project-box'>
+                    <img src='https://i.imgur.com/0N9W9Dn.png' alt='imagem projeto' />
+                    <div className='project-content'>
+                        <div className='project-text'>
+                            <h2>Jogo da Velha</h2>
+                            <p>Um projeto de Jogo da Velha, ele permite que dois jogadores joguem o clássico jogo da velha em um ambiente web.</p>
+                            <p>Tecnologias Utilizadas:</p>
+                            <p>HTML, CSS, Javascript, React</p>
+                        </div>
+                        <div className='align-button'>
+                            <a href='https://github.com/Procedeus/jogo-da-velha' className='project-button color-blue'>Source Code</a>
+                            <a href='https://p-jogo-da-velha.netlify.app/' className='project-button color-red'>Live Demo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
