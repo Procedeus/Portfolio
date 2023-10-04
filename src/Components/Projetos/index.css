@@ -8,6 +8,7 @@
 .projects{
     display: flex;
     gap: 10px;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 870px;
     margin: auto;
