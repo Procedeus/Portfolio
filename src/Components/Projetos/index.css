@@ -80,3 +80,9 @@
 .color-blue:hover, .color-red:hover{
     opacity: 0.7;
 }
+
+.project-icons{
+    margin-top: 10px;
+    font-size: 30px;
+    color: var(--text-name);
+}

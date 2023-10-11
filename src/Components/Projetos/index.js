@@ -1,4 +1,9 @@
 import './index.css';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { PiFileCssFill } from 'react-icons/pi';
+import { LiaReact } from 'react-icons/lia';
+import { SiAxios } from 'react-icons/si';
+import { MdEmail } from 'react-icons/md';
 
 const Projetos = () => {
     return (
@@ -12,8 +17,11 @@ const Projetos = () => {
                         <div className='project-text'>
                             <h2>Cursos de Instrumentos</h2>
                             <p>Uma landing page de cursos de instrumentos, apenas para praticar.</p>
-                            <p>Tecnologias Utilizadas:</p>
-                            <p>HTML, CSS, Javascript e React</p>
+                            <div className='project-icons'>
+                                <AiFillHtml5 /> 
+                                <PiFileCssFill /> 
+                                <LiaReact />
+                            </div>
                         </div>
                         <div className='align-button'>
                             <a href='https://github.com/Procedeus/curso-instrumentos' className='project-button color-blue'>Source Code</a>
@@ -29,7 +37,14 @@ const Projetos = () => {
                             <p>Um projeto de amigo secreto, onde é criado uma tabela e adicionado as pessoas que irão participar, após isso é 
                                 sorteado e enviado um email para cada integrante.</p>
                             <p>Tecnologias Utilizadas:</p>
-                            <p>HTML, CSS, Javascript, React, Axios, EmailJs</p>
+                            <p>Axios, EmailJs</p>
+                            <div className='project-icons'>
+                                <AiFillHtml5 /> 
+                                <PiFileCssFill /> 
+                                <LiaReact />
+                                <SiAxios />
+                                <MdEmail />
+                            </div>
                         </div>
                         <div className='align-button'>
                             <a href='https://github.com/Procedeus/React-amigo-secreto' className='project-button color-blue'>Source Code</a>
@@ -43,8 +58,11 @@ const Projetos = () => {
                         <div className='project-text'>
                             <h2>Jogo da Velha</h2>
                             <p>Um projeto de Jogo da Velha, ele permite que dois jogadores joguem o clássico jogo da velha em um ambiente web.</p>
-                            <p>Tecnologias Utilizadas:</p>
-                            <p>HTML, CSS, Javascript, React</p>
+                            <div className='project-icons'>
+                                <AiFillHtml5 /> 
+                                <PiFileCssFill /> 
+                                <LiaReact />
+                            </div>
                         </div>
                         <div className='align-button'>
                             <a href='https://github.com/Procedeus/jogo-da-velha' className='project-button color-blue'>Source Code</a>
