@@ -38,7 +38,7 @@ const Projetos = () => {
                     </div>
                 </div>
                 <div className='project-box'>
-                    <img src='https://i.imgur.com/0N9W9Dn.png' alt='imagem projeto' />
+                    <img src='https://i.imgur.com/ZBSS9Kc.png' alt='imagem projeto' />
                     <div className='project-content'>
                         <div className='project-text'>
                             <h2>Jogo da Velha</h2>
